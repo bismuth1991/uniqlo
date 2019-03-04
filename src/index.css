@@ -32,7 +32,7 @@ html {
 }
 
 body {
-
+  margin: 0;
   font-family: 'Uniqlo';
   font-size: 10px;
 }

@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
+
 import Header from './Header/Header';
+import CommingSoon from './CommingSoon/CommingSoon';
 
 const Main = styled.main`
   display: grid;
@@ -14,6 +16,7 @@ const Main = styled.main`
 const App = () => (
   <Main>
     <Header />
+    <CommingSoon />
   </Main>
 );
 
