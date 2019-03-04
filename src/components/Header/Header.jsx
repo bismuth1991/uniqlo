@@ -6,7 +6,7 @@ import logo from '../../assets/images/logo.jpg';
 
 const Logo = styled.figure`
   grid-column-end: span 6;
-  padding: 10px;
+  padding: 20px 10px 10px 10px;
   margin: 0;
 `;
 
@@ -24,7 +24,7 @@ const Header = () => (
   <>
     <Logo>
       <Link to="/">
-        <img src={logo} alt="logo" width="100px" />
+        <img src={logo} alt="logo" width="95px" />
       </Link>
     </Logo>
 
