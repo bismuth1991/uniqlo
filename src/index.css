@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Uniqlo';
+  src: 
+    local('Uniqlo'), 
+    url(./assets/fonts/uniqloproregular-webfont.woff2),
+    format('woof2');
+}
+@font-face {
+  font-family: 'UniqloBold';
+  src: 
+    local('UniqloBold'), 
+    url(./assets/fonts/uniqloprobold.woff2),
+    format('woof2');
+}
+@font-face {
+  font-family: 'Ariake';
+  src: 
+    local('Ariake'), 
+    url(./assets/fonts/ariake.woff2),
+    format('woof2');
+}
+@font-face {
+  font-family: 'Icomoon';
+  src: 
+    local('Icomoon'), 
+    url(./assets/fonts/icomoon.woff2),
+    format('woof2');
+}
+
+body {
+  font-family: 'Uniqlo';
+}
