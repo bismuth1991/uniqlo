@@ -6,6 +6,7 @@ import CommingSoon from './CommingSoon/CommingSoon';
 import FeaturedProduct from './FeaturedProduct/FeaturedProduct';
 
 import productImage from '../assets/images/featured-product.jpg';
+import PrimaryNavBar from './Nav/PrimaryNavBar';
 
 const Main = styled.main`
   margin: 0 auto;
@@ -16,7 +17,9 @@ const Main = styled.main`
 const App = () => (
   <Main>
     <Header />
+
     <CommingSoon />
+
     <FeaturedProduct
       collectionTitle="Boy's collection"
       productTitle="Minions everyday graphic T-shirt"
@@ -24,6 +27,8 @@ const App = () => (
       productImage={productImage}
       price="$9.90"
     />
+
+    <PrimaryNavBar />
   </Main>
 );
 
