@@ -1,30 +1,38 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Section from '../styled/Section';
-import image from '../../assets/images/comming-soon.png';
+import { alto } from '../styled/base/_colors';
 
-const GreySection = styled(Section)`
-  background-color: #dddddd;
+import { Container, FiveCol, SixCol, OneCol } from '../styled/base/_grid';
+import { Text } from '../styled/base/_typography';
+import Image from '../styled/Image';
+
+import adImage from '../../assets/images/comming-soon.png';
+
+const AdWrapper = styled(Container)`
+  background-color: ${alto};
+  height: 60px;
   cursor: pointer;
-`;
-const Image = styled.img`
-  grid-column-end: span 5;
-  max-width: 100%;
-  height: auto;
+  position: relative;
+
+  & > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
   }
 `;
 
-const Description = styled.p`
-  grid-column-end: span 6;
+const AdDescription = styled(Text)`
   font-size: 1.2rem;
+  padding: 0 0 0 15px;
   margin: 0;
-  padding: 1rem 0;
 `;
 
-const LinkIcon = styled.span`
-  justify-self: end;
-  font-size: 1.5em;
+const AdIcon = styled(OneCol)`
+  position: absolute;
+  right: 15px;
+  font-size: 1.8rem;
 `;
 
 const CommingSoon = () => {
@@ -33,18 +41,22 @@ const CommingSoon = () => {
   };
 
   return (
-    <GreySection onClick={handleClick}>
-      <Image
-        src={image}
-        alt="comming soon"
-      />
+    <AdWrapper onClick={handleClick}>
+      <FiveCol>
+        <Image
+          src={adImage}
+          alt="Comming Soon"
+        />
+      </FiveCol>
 
-      <Description>
-        The New Collection Arriving Online 3/7 10AM ET
-      </Description>
+      <SixCol>
+        <AdDescription>
+          The New Collection Arriving Online 3/7 10AM ET
+        </AdDescription>
+      </SixCol>
 
-      <LinkIcon>&gt;</LinkIcon>
-    </GreySection>
+      <AdIcon>&gt;</AdIcon>
+    </AdWrapper>
   );
 };
 

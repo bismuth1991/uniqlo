@@ -2,6 +2,7 @@ export const codGray = '#1b1b1b';
 export const almostBlack = '#0a0a0a';
 
 export const tundora = '#444444';
+export const alto = '#dddddd';
 
 export const torchRed = '#FC0D1B';
 export const red = '#E40310';
