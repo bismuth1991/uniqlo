@@ -10,6 +10,7 @@ export const Input = styled.input`
   box-shadow: none;
   box-sizing: border-box;
   appearance: none;
+  margin-bottom: 1.5rem;
   
   &:focus {
     border: 1px solid ${codGray};
@@ -26,6 +27,7 @@ export const Textarea = styled.textarea`
   box-sizing: border-box;
   appearance: none;
   min-height: 65px;
+  margin-bottom: 1.5rem;
   /* padding-top: 6px; */
   /* padding-bottom: 6px; */
   
@@ -39,4 +41,8 @@ export const Label = styled.label`
   display: block;
   margin-bottom: .5rem;
   font-weight: 600;
+`;
+
+export const Form = styled.form`
+  margin-bottom: 1.5rem;
 `;
