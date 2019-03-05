@@ -45,4 +45,5 @@ export const Label = styled.label`
 
 export const Form = styled.form`
   margin-bottom: 2.5rem;
+  padding: 0 15px;
 `;

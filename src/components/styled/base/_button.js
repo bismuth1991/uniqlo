@@ -36,6 +36,7 @@ export const RedButton = styled(Button)`
 
   &:hover,
   &:focus {
+    color: white;
     background-color: ${red};
     border-color: ${red};
   }
@@ -48,6 +49,7 @@ export const GrayButton = styled(Button)`
 
   &:hover,
   &:focus {
+    color: white;
     background-color: ${almostBlack};
     border-color: ${almostBlack};
   }
