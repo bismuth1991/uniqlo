@@ -94,7 +94,7 @@ const Categories = () => (
     <PrimaryTitle>Categories</PrimaryTitle>
     <CategoryWrapper>
       {categories.map(category => (
-        <Category>
+        <Category key={category.title}>
           <Image src={category.url} />
           <p>{category.title}</p>
         </Category>

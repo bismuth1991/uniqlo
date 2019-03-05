@@ -31,7 +31,7 @@ const SuggestedSearch = () => (
 
     <SearchWrapper>
       {searchTags.map(tag => (
-        <SearchTag>
+        <SearchTag key={tag}>
           {`# ${tag}`}
         </SearchTag>
       ))}
