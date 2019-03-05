@@ -28,3 +28,10 @@ export const SubTitle = styled(Text)`
   font-size: 1.4rem;
   margin: 0.5rem 0;
 `;
+
+export const Price = styled(Text)`
+  font-family: 'Uniqlo';
+  font-size: 3.3rem;
+  line-height: 1em;
+  margin: 0.5rem 0;
+`;

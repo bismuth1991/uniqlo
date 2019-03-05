@@ -22,6 +22,7 @@ const App = () => (
       productTitle="Minions everyday graphic T-shirt"
       subTitle="Get graphic tees with everyone's favorite party animals, The Minions!"
       productImage={productImage}
+      price="$9.90"
     />
   </Main>
 );
