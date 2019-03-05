@@ -5,12 +5,14 @@ import Header from './main/Header';
 import CommingSoon from './main/CommingSoon';
 import FeaturedProduct from './main/FeaturedProduct';
 
-import productImage from '../assets/images/featured-product.jpg';
 import PrimaryNavBar from './main/PrimaryNavBar';
 import SecondaryNavBar from './main/SecondaryNavBar';
 import Spacer18 from './styled/Spacers';
 import SuggestedSearch from './main/SuggestedSearch';
 import Categories from './main/Categories';
+
+import featuredProduct from '../assets/images/featured-product.jpg';
+import seasonalPick from '../assets/images/seasonal-pick.jpg';
 
 const Main = styled.main`
   margin: 0 auto;
@@ -28,8 +30,9 @@ const App = () => (
       collectionTitle="Boy's collection"
       productTitle="Minions everyday graphic T-shirt"
       subTitle="Get graphic tees with everyone's favorite party animals, The Minions!"
-      productImage={productImage}
+      productImage={featuredProduct}
       price="$9.90"
+      tag="kids"
     />
 
     <PrimaryNavBar />
@@ -41,6 +44,15 @@ const App = () => (
 
     <Categories />
     <Spacer18 />
+
+    <FeaturedProduct
+      collectionTitle="Seasonal Picks"
+      productTitle="Light warm padded parkas"
+      productImage={seasonalPick}
+      price="$39.90"
+      tag="boys"
+    />
+
   </Main>
 );
 

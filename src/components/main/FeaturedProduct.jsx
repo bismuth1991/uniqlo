@@ -12,6 +12,7 @@ const FeaturedProduct = ({
   subTitle,
   productImage,
   price,
+  tag,
 }) => (
   <>
     <PrimaryTitle>{collectionTitle}</PrimaryTitle>
@@ -19,7 +20,7 @@ const FeaturedProduct = ({
     <Image src={productImage} alt={productTitle} />
 
     <SecondaryTitle>
-      <Pill>KIDS</Pill>
+      <Pill>{tag}</Pill>
       {productTitle}
     </SecondaryTitle>
 
@@ -35,6 +36,7 @@ FeaturedProduct.propTypes = {
   subTitle: string.isRequired,
   productImage: string.isRequired,
   price: string.isRequired,
+  tag: string.isRequired,
 };
 
 export default FeaturedProduct;

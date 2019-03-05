@@ -5,7 +5,6 @@ import styled from 'styled-components';
 const Nav = styled.nav`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  margin-top: 3rem;
 `;
 const NavItem = styled.div`
   display: flex;

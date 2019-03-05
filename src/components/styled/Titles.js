@@ -33,5 +33,5 @@ export const Price = styled(Text)`
   font-family: 'Uniqlo';
   font-size: 3.3rem;
   line-height: 1em;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 3rem 0;
 `;
