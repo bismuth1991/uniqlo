@@ -8,6 +8,7 @@ import FeaturedProduct from './FeaturedProduct/FeaturedProduct';
 import productImage from '../assets/images/featured-product.jpg';
 import PrimaryNavBar from './Nav/PrimaryNavBar';
 import SecondaryNavBar from './Nav/SecondaryNavBar';
+import Spacer18 from './styled/Spacers';
 
 const Main = styled.main`
   margin: 0 auto;
@@ -31,6 +32,8 @@ const App = () => (
 
     <PrimaryNavBar />
     <SecondaryNavBar />
+
+    <Spacer18 />
   </Main>
 );
 
