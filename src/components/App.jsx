@@ -1,14 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Header from './Header/Header';
-import CommingSoon from './CommingSoon/CommingSoon';
-import FeaturedProduct from './FeaturedProduct/FeaturedProduct';
+import Header from './main/Header';
+import CommingSoon from './main/CommingSoon';
+import FeaturedProduct from './main/FeaturedProduct';
 
 import productImage from '../assets/images/featured-product.jpg';
-import PrimaryNavBar from './Nav/PrimaryNavBar';
-import SecondaryNavBar from './Nav/SecondaryNavBar';
+import PrimaryNavBar from './main/PrimaryNavBar';
+import SecondaryNavBar from './main/SecondaryNavBar';
 import Spacer18 from './styled/Spacers';
+import SuggestedSearch from './main/SuggestedSearch';
 
 const Main = styled.main`
   margin: 0 auto;
@@ -34,6 +35,8 @@ const App = () => (
     <SecondaryNavBar />
 
     <Spacer18 />
+
+    <SuggestedSearch />
   </Main>
 );
 
