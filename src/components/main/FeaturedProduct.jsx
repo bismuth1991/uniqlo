@@ -30,10 +30,13 @@ const FeaturedProduct = ({
   </>
 );
 
+FeaturedProduct.defaultProps = {
+  subTitle: null,
+};
 FeaturedProduct.propTypes = {
   collectionTitle: string.isRequired,
   productTitle: string.isRequired,
-  subTitle: string.isRequired,
+  subTitle: string,
   productImage: string.isRequired,
   price: string.isRequired,
   tag: string.isRequired,
