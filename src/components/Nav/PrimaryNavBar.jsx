@@ -13,6 +13,7 @@ const NavItem = styled.div`
   align-items: center;
   padding: 30px 0;
   text-transform: uppercase;
+  
   a {
     font-size: 1.6rem;
     font-weight: 100;
