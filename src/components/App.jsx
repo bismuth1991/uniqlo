@@ -5,15 +5,17 @@ import Header from './main/Header';
 import CommingSoon from './main/CommingSoon';
 import FeaturedProduct from './main/FeaturedProduct';
 
+import featuredProduct from '../assets/images/featured-product.jpg';
+import seasonalPick from '../assets/images/seasonal-pick.jpg';
+
 import PrimaryNavBar from './main/PrimaryNavBar';
 import SecondaryNavBar from './main/SecondaryNavBar';
 import Spacer18 from './styled/Spacers';
 import SuggestedSearch from './main/SuggestedSearch';
 import Categories from './main/Categories';
-
-import featuredProduct from '../assets/images/featured-product.jpg';
-import seasonalPick from '../assets/images/seasonal-pick.jpg';
 import SeasonalPicks from './main/SeasonalPicks';
+import EMember from './main/EMember';
+
 
 const Main = styled.main`
   margin: 0 auto;
@@ -57,6 +59,7 @@ const App = () => (
     <SeasonalPicks />
     <Spacer18 />
 
+    <EMember />
   </Main>
 );
 
