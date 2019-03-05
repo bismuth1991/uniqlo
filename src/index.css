@@ -25,6 +25,7 @@
 
 html {
   box-sizing: border-box;
+  font-size: 10px;
 }
 
 *, *:before, *:after {
@@ -34,5 +35,4 @@ html {
 body {
   margin: 0;
   font-family: 'Uniqlo';
-  font-size: 10px;
 }

@@ -4,7 +4,6 @@ import styled from 'styled-components';
 import Section from '../styled/Section';
 import image from '../../assets/images/comming-soon.png';
 
-
 const GreySection = styled(Section)`
   background-color: #dddddd;
   cursor: pointer;
@@ -18,14 +17,14 @@ const Image = styled.img`
 
 const Description = styled.p`
   grid-column-end: span 6;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   margin: 0;
+  padding: 1rem 0;
 `;
 
 const LinkIcon = styled.span`
   justify-self: end;
   font-size: 1.5em;
-  padding: 10px;
 `;
 
 const CommingSoon = () => {
