@@ -13,6 +13,7 @@ import Categories from './main/Categories';
 
 import featuredProduct from '../assets/images/featured-product.jpg';
 import seasonalPick from '../assets/images/seasonal-pick.jpg';
+import SeasonalPicks from './main/SeasonalPicks';
 
 const Main = styled.main`
   margin: 0 auto;
@@ -52,6 +53,9 @@ const App = () => (
       price="$39.90"
       tag="boys"
     />
+
+    <SeasonalPicks />
+    <Spacer18 />
 
   </Main>
 );

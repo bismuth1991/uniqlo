@@ -2,9 +2,11 @@ import styled from 'styled-components';
 
 export const HorizontalCard = styled.figure`
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 0.9fr 1.1fr;
+  margin: 0 0 0.2rem 0;
 `;
 
 export const CardInfo = styled.div`
-  padding: 1.5rem;
+  vertical-align: baseline;
+  height: 180px;
 `;
