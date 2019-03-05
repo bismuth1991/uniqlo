@@ -37,7 +37,7 @@ const Form = styled.form`
   display: flex;
 `;
 
-const EMember = () => (
+const EMemberForm = () => (
   <>
     <PrimaryTitle>
       Uniqlo E-Member
@@ -59,4 +59,4 @@ const EMember = () => (
   </>
 );
 
-export default EMember;
+export default EMemberForm;

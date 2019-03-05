@@ -14,7 +14,8 @@ import Spacer18 from './styled/Spacers';
 import SuggestedSearch from './main/SuggestedSearch';
 import Categories from './main/Categories';
 import SeasonalPicks from './main/SeasonalPicks';
-import EMember from './main/EMember';
+import EMemberForm from './main/EMember';
+import Footer from './main/Footer';
 
 
 const Main = styled.main`
@@ -59,7 +60,9 @@ const App = () => (
     <SeasonalPicks />
     <Spacer18 />
 
-    <EMember />
+    <EMemberForm />
+
+    <Footer />
   </Main>
 );
 
