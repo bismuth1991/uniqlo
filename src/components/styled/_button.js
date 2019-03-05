@@ -1,6 +1,7 @@
 import styled from 'styled-components';
+import { codGray, almostBlack, torchRed, red } from './_colors';
 
-export const Button = styled.button`
+const Button = styled.button`
   display: inline-block;
   height: 38px;
   padding: 0 30px;
@@ -27,15 +28,26 @@ export const Button = styled.button`
   }
 `;
 
-export const PrimaryButton = styled(Button)`
-  color: #FFF;
-  background-color: #33C3F0;
-  border-color: #33C3F0;
+export const RedButton = styled(Button)`
+  color: white;
+  background-color: ${torchRed};
+  border-color: ${red};
 
   &:hover,
   &:focus {
-    color: #FFF;
-    background-color: #1EAEDB;
-    border-color: #1EAEDB;
+    background-color: ${red};
+    border-color: ${red};
+  }
+`;
+
+export const GrayButton = styled(Button)`
+  color: white;
+  background-color: ${codGray};
+  border-color: ${almostBlack};
+
+  &:hover,
+  &:focus {
+    background-color: ${almostBlack};
+    border-color: ${almostBlack};
   }
 `;
