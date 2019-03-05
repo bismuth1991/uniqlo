@@ -7,6 +7,12 @@ export const Container = styled.div`
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 `;
 
 const Col = styled.div`

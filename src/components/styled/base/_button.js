@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { codGray, almostBlack, torchRed, red } from './_colors';
 
-const Button = styled.button`
+export const Button = styled.button`
   display: inline-block;
   height: 38px;
   padding: 0 30px;
@@ -19,6 +19,7 @@ const Button = styled.button`
   border: 1px solid #bbb;
   cursor: pointer;
   box-sizing: border-box;
+  margin-bottom: 1rem;
 
   &:hover,
   &:focus {
