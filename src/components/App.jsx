@@ -10,6 +10,7 @@ import PrimaryNavBar from './main/PrimaryNavBar';
 import SecondaryNavBar from './main/SecondaryNavBar';
 import Spacer18 from './styled/Spacers';
 import SuggestedSearch from './main/SuggestedSearch';
+import Categories from './main/Categories';
 
 const Main = styled.main`
   margin: 0 auto;
@@ -33,10 +34,13 @@ const App = () => (
 
     <PrimaryNavBar />
     <SecondaryNavBar />
-
     <Spacer18 />
 
     <SuggestedSearch />
+    <Spacer18 />
+
+    <Categories />
+    <Spacer18 />
   </Main>
 );
 
